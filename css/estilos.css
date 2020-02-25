@@ -1,0 +1,122 @@
+/*padding cero*/
+.row .col{
+    padding: 0;
+}
+ 
+/*estilos de los iconos*/
+.fb-logo,.link-logo{
+    border-radius: 25px;
+    padding: 5px;
+}
+.fb-logo{
+    background: #005ea8;
+}
+.link-logo{
+    background: #999999;
+}
+.phone-logo{
+    font-size: 38px;
+}
+
+ 
+ 
+/*segunda pagina*/
+.section{
+  
+    padding: 0;
+    margin: 0
+}
+.title_history{
+    font-size: 70px;
+    margin: 0
+
+}
+h4{
+    font-size: 22.99px;
+    text-align: justify;
+
+}
+.parra_history{
+    font-size: 16px;
+    text-align: justify;  
+}
+ 
+.button-1{
+    height: 55px;
+    width: 235px;
+    border:1px solid black;
+    margin-top: 52px
+}
+.parrafo1{
+  
+  
+    max-width: 850px;
+ 
+}
+.row{
+    margin: 0
+}
+/*Seccion2*/
+/*capas de sombreado al img*/
+.section2:before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.4;
+    
+}   
+.section2:after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.4;
+    
+}  
+.section2{
+    position: relative
+}
+/*x*/
+.img_after{
+     position: relative
+}
+.img_after::before{
+    content: "";
+    background-image: url(../img/linea.png);
+    width: 3px;
+    height: 227px;
+    top: 0;
+    left: 43px;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1
+}
+ 
+.subtitle{
+   font-size: 80px;
+    color: white;
+    position: relative;
+    z-index: 2
+}
+ 
+.conte_box{
+   height: 252px;
+    position: relative;
+    z-index: 2
+}
+
+.sub_expe{
+  font-size: 34px  ;
+    color: white;
+}
+.sub_expe2{
+    font-size: 16;
+    color: white;
+}
